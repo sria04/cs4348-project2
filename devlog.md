@@ -57,3 +57,21 @@ Overall the small test looks stable enough to justify trying larger customer cou
 Bumping `NUM_CUSTOMERS` up toward 10, then 20, watching for any slowdowns or weird ordering in the logs.
 If that still looks healthy, run with the full 50 customers and confirm it still finishes without hanging.
 If problems show up at higher loads (for example, customers getting stuck waiting), add focused logging around the manager and safe sections to see where threads are blocking.
+
+# Session 4
+
+## Thoughts so far
+Session 3 gave me confidence that the small case is fine. This time I want to crank up the customer count step by step and make sure we don’t hit deadlocks or weird behavior when there’s more contention. If tellers keep looping after everyone’s done, I’ll need to double-check the exit condition.
+
+## Plan this session
+- Bump `NUM_CUSTOMERS` to 10 and run the script a few times; confirm it always prints "Bank closed." and no one hangs.
+- Then try 20 customers, same thing — multiple runs, no deadlocks or crashes.
+- Finally set it to 50 and run several times. If anything breaks (e.g. tellers never close, or a customer never gets served), add logging or fix the synchronization.
+- Save at least one full run output to a file so we have a concrete record that we tested at scale.
+
+## Reflection
+Scaled `NUM_CUSTOMERS` to 10, then 20, then 50. Ran the script multiple times at each level; every run finished within a couple of seconds and printed "Bank closed." with all three tellers closing. No deadlocks or crashes.
+Saved full run outputs at each scale: `run_10.txt`, `run_20.txt`, and `run_50.txt`, so there’s a concrete log in the repo for each step. Each file shows the usual pattern: tellers ready first, then customers entering and getting served, and the bank closing at the end.
+
+## Next session
+If we need to tweak behavior or add features (e.g. different transaction types or stats), we can do it from here. Otherwise the simulation is in a good state for the assignment.
