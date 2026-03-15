@@ -4,7 +4,7 @@ import time
 
 # Basic settings for the simulation
 NUM_TELLERS = 3
-NUM_CUSTOMERS = 10
+NUM_CUSTOMERS = 20
 
 # Limits for different shared parts of the bank
 door_sem = threading.Semaphore(2)     # at most 2 customers entering at once
