@@ -14,9 +14,9 @@ Set up globals and semaphore structure - Write skeleton teller thread - Write sk
 
 # Session 2 
 
-## Thoughts 
+## Thoughts
 
-No new developments since initial entry.
+Nothing new since last time; still going off the original plan.
 
 ## Plan
 
@@ -75,3 +75,13 @@ Saved full run outputs at each scale: `run_10.txt`, `run_20.txt`, and `run_50.tx
 
 ## Next session
 If we need to tweak behavior or add features (e.g. different transaction types or stats), we can do it from here. Otherwise the simulation is in a good state for the assignment.
+
+# Session 5
+
+## Thoughts so far
+The simulation is basically done; I just need to document it and do a final sanity check. Want to make sure the README explains what this is and how to run it, and that a few more runs still finish without hanging before calling it complete.
+
+## Plan this session
+- Write README so anyone can understand the project and run it.
+- Run the final version at least 5 times and confirm it exits cleanly every time (no deadlocks).
+- Leave the repo in a clean state (nothing uncommitted) so it’s ready to turn in.
