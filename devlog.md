@@ -10,3 +10,16 @@ Build the teller and customer threads with matching semaphores. Start small with
 ## Plan for next session
 
 Set up globals and semaphore structure - Write skeleton teller thread - Write skeleton customer thread.
+
+#Session 2 
+
+## Thoughts No new developments since initial entry.
+
+## Plan
+
+- Create bank.py 
+- Define all global semaphores: door (2), safe (2), manager (1), line lock (1) 
+- Define per-teller semaphore arrays for customer↔teller signaling 
+- Write teller() function — just print statements, no sleeps yet 
+- Write customer() function — just print statements, no sleeps yet 
+- Launch 3 tellers + 3 customers (not 50), join all threads.
