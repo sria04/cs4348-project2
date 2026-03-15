@@ -1,0 +1,155 @@
+Teller 0 [Teller 0]: ready to serve customers
+Teller 1 [Teller 1]: ready to serve customers
+Teller 2 [Teller 2]: ready to serve customers
+Customer 0 [Customer 0]: wants to make a withdrawal
+Customer 1 [Customer 1]: wants to make a deposit
+Customer 2 [Customer 2]: wants to make a withdrawal
+Customer 3 [Customer 3]: wants to make a withdrawal
+Customer 4 [Customer 4]: wants to make a withdrawal
+Customer 5 [Customer 5]: wants to make a deposit
+Customer 6 [Customer 6]: wants to make a withdrawal
+Customer 7 [Customer 7]: wants to make a withdrawal
+Customer 8 [Customer 8]: wants to make a deposit
+Customer 9 [Customer 9]: wants to make a deposit
+Customer 2 [Customer 2]: enters bank
+Customer 2 [Teller 0]: goes to this teller
+Teller 0 [Customer 2]: asks what they want to do
+Customer 2 [Teller 0]: says they want a withdrawal
+Teller 0 [Customer 2]: got a withdrawal request
+Teller 0 [Customer 2]: heading to the manager
+Teller 0 [Customer 2]: talking to the manager
+Teller 0 [Customer 2]: done with the manager
+Teller 0 [Customer 2]: heading to the safe
+Teller 0 [Customer 2]: inside the safe
+Customer 9 [Customer 9]: enters bank
+Customer 9 [Teller 1]: goes to this teller
+Teller 1 [Customer 9]: asks what they want to do
+Customer 9 [Teller 1]: says they want a deposit
+Teller 1 [Customer 9]: got a deposit request
+Teller 1 [Customer 9]: heading to the safe
+Teller 1 [Customer 9]: inside the safe
+Customer 6 [Customer 6]: enters bank
+Customer 6 [Teller 2]: goes to this teller
+Teller 2 [Customer 6]: asks what they want to do
+Customer 7 [Customer 7]: enters bank
+Customer 6 [Teller 2]: says they want a withdrawal
+Teller 2 [Customer 6]: got a withdrawal request
+Teller 2 [Customer 6]: heading to the manager
+Teller 2 [Customer 6]: talking to the manager
+Teller 1 [Customer 9]: leaving the safe
+Teller 1 [Customer 9]: finished the transaction
+Customer 9 [Teller 1]: all done, heading out
+Customer 9 [Customer 9]: leaves bank
+Teller 1 [Customer 9]: customer left the window
+Customer 7 [Teller 1]: goes to this teller
+Teller 1 [Customer 7]: asks what they want to do
+Customer 7 [Teller 1]: says they want a withdrawal
+Teller 1 [Customer 7]: got a withdrawal request
+Teller 1 [Customer 7]: heading to the manager
+Customer 1 [Customer 1]: enters bank
+Customer 5 [Customer 5]: enters bank
+Teller 2 [Customer 6]: done with the manager
+Teller 2 [Customer 6]: heading to the safe
+Teller 2 [Customer 6]: inside the safe
+Teller 1 [Customer 7]: talking to the manager
+Customer 4 [Customer 4]: enters bank
+Customer 8 [Customer 8]: enters bank
+Teller 0 [Customer 2]: leaving the safe
+Teller 0 [Customer 2]: finished the transaction
+Customer 2 [Teller 0]: all done, heading out
+Customer 2 [Customer 2]: leaves bank
+Teller 0 [Customer 2]: customer left the window
+Customer 5 [Teller 0]: goes to this teller
+Teller 0 [Customer 5]: asks what they want to do
+Customer 5 [Teller 0]: says they want a deposit
+Teller 0 [Customer 5]: got a deposit request
+Teller 0 [Customer 5]: heading to the safe
+Teller 0 [Customer 5]: inside the safe
+Teller 2 [Customer 6]: leaving the safe
+Teller 2 [Customer 6]: finished the transaction
+Customer 6 [Teller 2]: all done, heading out
+Customer 6 [Customer 6]: leaves bank
+Teller 2 [Customer 6]: customer left the window
+Customer 4 [Teller 2]: goes to this teller
+Teller 2 [Customer 4]: asks what they want to do
+Customer 4 [Teller 2]: says they want a withdrawal
+Teller 2 [Customer 4]: got a withdrawal request
+Teller 2 [Customer 4]: heading to the manager
+Teller 1 [Customer 7]: done with the manager
+Teller 1 [Customer 7]: heading to the safe
+Teller 1 [Customer 7]: inside the safe
+Teller 2 [Customer 4]: talking to the manager
+Teller 0 [Customer 5]: leaving the safe
+Teller 0 [Customer 5]: finished the transaction
+Customer 5 [Teller 0]: all done, heading out
+Customer 5 [Customer 5]: leaves bank
+Teller 0 [Customer 5]: customer left the window
+Customer 1 [Teller 0]: goes to this teller
+Teller 0 [Customer 1]: asks what they want to do
+Customer 1 [Teller 0]: says they want a deposit
+Teller 0 [Customer 1]: got a deposit request
+Teller 0 [Customer 1]: heading to the safe
+Teller 0 [Customer 1]: inside the safe
+Customer 0 [Customer 0]: enters bank
+Teller 1 [Customer 7]: leaving the safe
+Teller 1 [Customer 7]: finished the transaction
+Customer 7 [Teller 1]: all done, heading out
+Customer 7 [Customer 7]: leaves bank
+Teller 1 [Customer 7]: customer left the window
+Customer 0 [Teller 1]: goes to this teller
+Teller 1 [Customer 0]: asks what they want to do
+Customer 0 [Teller 1]: says they want a withdrawal
+Teller 1 [Customer 0]: got a withdrawal request
+Teller 1 [Customer 0]: heading to the manager
+Customer 3 [Customer 3]: enters bank
+Teller 2 [Customer 4]: done with the manager
+Teller 2 [Customer 4]: heading to the safe
+Teller 2 [Customer 4]: inside the safe
+Teller 1 [Customer 0]: talking to the manager
+Teller 0 [Customer 1]: leaving the safe
+Teller 0 [Customer 1]: finished the transaction
+Customer 1 [Teller 0]: all done, heading out
+Customer 1 [Customer 1]: leaves bank
+Teller 0 [Customer 1]: customer left the window
+Customer 8 [Teller 0]: goes to this teller
+Teller 0 [Customer 8]: asks what they want to do
+Customer 8 [Teller 0]: says they want a deposit
+Teller 0 [Customer 8]: got a deposit request
+Teller 0 [Customer 8]: heading to the safe
+Teller 0 [Customer 8]: inside the safe
+Teller 1 [Customer 0]: done with the manager
+Teller 1 [Customer 0]: heading to the safe
+Teller 0 [Customer 8]: leaving the safe
+Teller 0 [Customer 8]: finished the transaction
+Customer 8 [Teller 0]: all done, heading out
+Customer 8 [Customer 8]: leaves bank
+Teller 1 [Customer 0]: inside the safe
+Teller 0 [Customer 8]: customer left the window
+Customer 3 [Teller 0]: goes to this teller
+Teller 0 [Customer 3]: asks what they want to do
+Customer 3 [Teller 0]: says they want a withdrawal
+Teller 0 [Customer 3]: got a withdrawal request
+Teller 0 [Customer 3]: heading to the manager
+Teller 0 [Customer 3]: talking to the manager
+Teller 2 [Customer 4]: leaving the safe
+Teller 2 [Customer 4]: finished the transaction
+Customer 4 [Teller 2]: all done, heading out
+Customer 4 [Customer 4]: leaves bank
+Teller 2 [Customer 4]: customer left the window
+Teller 1 [Customer 0]: leaving the safe
+Teller 1 [Customer 0]: finished the transaction
+Customer 0 [Teller 1]: all done, heading out
+Customer 0 [Customer 0]: leaves bank
+Teller 1 [Customer 0]: customer left the window
+Teller 0 [Customer 3]: done with the manager
+Teller 0 [Customer 3]: heading to the safe
+Teller 0 [Customer 3]: inside the safe
+Teller 0 [Customer 3]: leaving the safe
+Teller 0 [Customer 3]: finished the transaction
+Customer 3 [Teller 0]: all done, heading out
+Customer 3 [Customer 3]: leaves bank
+Teller 0 [Customer 3]: customer left the window
+Teller 0 [Teller 0]: closing
+Teller 1 [Teller 1]: closing
+Teller 2 [Teller 2]: closing
+Bank closed.
