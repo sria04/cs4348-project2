@@ -23,3 +23,11 @@ Set up globals and semaphore structure - Write skeleton teller thread - Write sk
 - Write teller() function — just print statements, no sleeps yet 
 - Write customer() function — just print statements, no sleeps yet 
 - Launch 3 tellers + 3 customers (not 50), join all threads.
+
+## Reflection
+Got `bank.py` set up with the globals, semaphores, and both thread functions.
+Tried it with `NUM_CUSTOMERS = 3`; the threads start and the printouts look reasonable.
+The basic semaphore wiring seems to be working for this small test.
+
+## Next session
+Test with more customers. Scale to 50 and look for race conditions.
